@@ -14,6 +14,7 @@ YUQUE_TOKEN=xxx
 SECRET_ID=xxx
 SECRET_KEY=xxx
 ```
+> ⚠️ 注意 ⚠️ 一定不要把`.env`文件提交到线上仓库，并将`.env`加入到`.gitignore`
 
 ## 线上部署
 线上部署时，如果使用github action进行部署，则可以使用自带的secret来配置环境变量
